@@ -1,0 +1,74 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(166, 253, 166);
+}
+#panel{
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+#panel-top{
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0px 30%;
+    background-color: rgb(59, 128, 59);
+}
+.enum{
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    width: 40px;
+    font-weight: 900;
+    font-size: 25px;
+    background-color: white;
+}
+.box{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   
+}
+#panel-bottom{
+    width: 100%;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(253, 252, 252);
+}
+.bubble{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(88, 189, 113);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(30, 102, 30);
+}
